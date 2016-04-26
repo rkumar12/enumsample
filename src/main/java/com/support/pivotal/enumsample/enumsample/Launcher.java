@@ -1,9 +1,16 @@
 package com.support.pivotal.enumsample.enumsample;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import com.gemstone.gemfire.cache.Region;
+import com.gemstone.gemfire.cache.client.ClientCache;
+import com.gemstone.gemfire.cache.client.ClientCacheFactory;
 
 
 
-public class Launcher {/*
+
+public class Launcher {
 	public static void main(String[] args) {
 		ClientCache cache = new ClientCacheFactory().set("cache-xml-file",
 				"client-cache.xml").create();
@@ -22,4 +29,4 @@ public class Launcher {/*
 		Map<String, Object> map1 = region.get("/test/data/enumasstr");
 		System.out.println(map1);
 	}
-*/}
+}

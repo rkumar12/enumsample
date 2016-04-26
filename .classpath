@@ -4,5 +4,6 @@
 	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
 	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/rajiv/kumar/software/Pivotal_GemFire_8209_b18035_Linux/lib/gemfire.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
